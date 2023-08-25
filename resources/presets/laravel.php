@@ -136,6 +136,7 @@ return ConfigurationFactory::preset([
         'use_nullable_type_declaration' => false,
     ],
     'object_operator_without_whitespace' => true,
+    'ordered_class_elements' => true,
     'ordered_imports' => ['sort_algorithm' => 'alpha', 'imports_order' => ['const', 'class', 'function']],
     'ordered_interfaces' => true,
     'ordered_traits' => true,
